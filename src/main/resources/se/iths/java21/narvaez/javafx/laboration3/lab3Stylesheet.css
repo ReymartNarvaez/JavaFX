@@ -1,0 +1,16 @@
+Button{
+    -fx-padding: 9px;
+}
+
+ColorPicker{
+    -fx-padding: 5px;
+}
+
+Spinner{
+    -fx-padding: 5px;
+    -fx-background-color: rgba(60,63,65,255);
+}
+
+.root{
+    -fx-base: rgba(60,63,65,255);
+}
