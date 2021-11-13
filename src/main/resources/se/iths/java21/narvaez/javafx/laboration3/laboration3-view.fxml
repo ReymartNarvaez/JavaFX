@@ -20,6 +20,8 @@
                 onAction="#undoClicked"/>
         <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Redo"
                 onAction="#redoShape"/>
+        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" text="Save"
+                onAction="#save"/>
     </HBox>
     <StackPane prefWidth="400" prefHeight="10000">
         <ResizeableCanvas fx:id="canvas" onMouseClicked="#canvasClicked"/>
